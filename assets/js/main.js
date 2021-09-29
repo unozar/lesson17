@@ -236,7 +236,7 @@ function myMul(a, b) {
 }
 
 let myDouble = myMul.bind(null, 2);
-let myTriple = myMul.bind(null,3);
+let myTriple = myMul.bind(null, 3);
 /*
  * создайте функции myDouble(n), которая принимает один параметр и  удваивает его.
  * Использовать умножение или другие математические операции внутри функции – запрещено, только bind() и myMul().
@@ -268,7 +268,7 @@ let myTriple = myMul.bind(null,3);
  */
 function myUniq(arr) {
     let set = new Set();
-    for (let i=0; i<arr.length; i++){
+    for (let i = 0; i < arr.length; i++) {
         set.add(arr[i]);
     }
     return set;
